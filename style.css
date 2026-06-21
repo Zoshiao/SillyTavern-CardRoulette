@@ -1,0 +1,45 @@
+/* Card Roulette: toolbar icon button (lives in #rm_buttons_container with ST's own icons) */
+#card_roulette_btn.cr-locked {
+    color: var(--crimson, #dc4747);
+}
+
+/* Settings panel */
+.card-roulette-settings .cr-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 6px 0;
+}
+
+.card-roulette-settings .cr-field label {
+    flex: 1;
+}
+
+.card-roulette-settings input[type="number"] {
+    width: 70px;
+}
+
+.card-roulette-settings .cr-status {
+    margin-top: 8px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: var(--black30a, rgba(0, 0, 0, 0.3));
+    font-size: 0.9em;
+}
+
+.card-roulette-settings small {
+    opacity: 0.7;
+    display: block;
+}
+
+/* Popup buttons: the destructive action reads red so deletion is unmistakable. */
+.menu_button.cr-danger {
+    color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+.menu_button.cr-danger:hover {
+    background-color: #ff6b6b;
+    color: #fff;
+}
