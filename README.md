@@ -11,7 +11,7 @@ The point: rediscover the diamonds buried in your collection, and clear out the 
 In SillyTavern, open the **Extensions** panel, click **Install Extension**, and paste this repository's URL:
 
 ```
-https://github.com/<your-username>/<your-repo>
+https://github.com/Zoshiao/SillyTavern-CardRoulette
 ```
 
 That is it. No config files to edit, no server restart, no special permissions. It is a pure UI extension.
